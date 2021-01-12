@@ -42,6 +42,7 @@ public class VentanaPrincipal extends javax.swing.JFrame {
      */
     public VentanaPrincipal() {
         initComponents();
+        this.setLocationRelativeTo(null);
     }
 
     /**
@@ -467,7 +468,7 @@ public class VentanaPrincipal extends javax.swing.JFrame {
                 tenedor(cont, n);
                 comidas.get(cont).setIcon(comida);
                 f[cont] = new Filosofo(cont, c);
-               // f[cont].start();
+                f[cont].start();
             }
 
         } catch (Exception e) {

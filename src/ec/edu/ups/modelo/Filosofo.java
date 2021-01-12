@@ -13,7 +13,7 @@ import java.util.Random;
  *
  * @author NANCY
  */
-public class Filosofo {
+public class Filosofo extends Thread{
     private int id;
     private Accion accion;
     //private int nComidas;
